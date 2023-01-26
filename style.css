@@ -1,0 +1,44 @@
+.flexbox-container {
+    display: flex;
+    text-align: center;
+    min-height: 1000px;
+    justify-content: space-between;
+}
+
+.middle {
+    width: 100%;
+    flex: 4;
+    align-self: center;
+    padding-bottom: 30px;
+}
+
+.hlink {
+    padding-top: 30px;
+    width: 100%;
+    flex: 1;
+}
+
+
+.item1 {
+    width: 100%;
+    flex: 1;
+}
+
+#searchsize {
+    min-width: 400px;
+    min-height: 66px;
+    font-size: 25px;
+}
+
+.hlink a {
+    text-decoration: none;
+    color: black;
+}
+
+.hlink a:hover {
+    text-decoration: underline;
+}
+
+.hlink a:visited {
+    color: black;
+}
